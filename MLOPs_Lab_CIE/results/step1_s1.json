@@ -1,0 +1,23 @@
+{
+  "experiment_name": "freshbasket-delivery-time-min",
+  "models": [
+    {
+      "name": "Ridge",
+      "mae": 5.690497592702551,
+      "rmse": 6.41821906077259,
+      "r2": 0.8938321284205193
+    },
+    {
+      "name": "GradientBoosting",
+      "mae": 4.183573405900821,
+      "rmse": 5.412645553402319,
+      "r2": 0.9244936954358004
+    }
+  ],
+  "best_model": "GradientBoosting",
+  "best_metric_name": "mae",
+  "best_metric_value": 4.183573405900821,
+  "tags": {
+    "team": "ml_engineering"
+  }
+}

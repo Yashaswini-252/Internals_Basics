@@ -1,0 +1,13 @@
+{
+  "search_type": "random",
+  "n_folds": 3,
+  "total_trials": 10,
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": 3,
+    "learning_rate": 0.05
+  },
+  "best_mae": 4.453778885048475,
+  "best_cv_mae": 9.020059459379176,
+  "parent_run_name": "tuning-freshbasket"
+}
